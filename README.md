@@ -2,8 +2,9 @@
 
 Multiclass brain tumor classification on MRI scans using the SwRD architecture — a parallel Swin Transformer + ResNet-50 fusion model.
 
-This implementation is inspired by the research paper **[Advancing Brain Tumor MRI Classification using SwRD: A Parallel Swin Transformer–ResNet Approach](https://www.sciencedirect.com/science/article/pii/S2096579625000348#abs0010)** The architecture, dataset pipeline, and training setup have been adapted for local experimentation and reproducibility.
+This implementation is inspired by the research paper **[Advancing Brain Tumor MRI Classification using SwRD: A Parallel Swin Transformer–ResNet Approach](https://www.sciencedirect.com/science/article/pii/S2096579625000348#abs0010)** 
 
+The architecture, dataset pipeline, and training setup have been adapted for local experimentation and reproducibility.
 The notebook achieved **99.88% validation accuracy** on the 31,464-image dataset described below.
 
 ---
