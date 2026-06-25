@@ -2,7 +2,7 @@
 
 Multiclass brain tumor classification on MRI scans using the SwRD architecture — a parallel Swin Transformer + ResNet-50 fusion model.
 
-This implementation is inspired by the research paper *"Advancing Brain Tumor MRI Classification using SwRD: A Parallel Swin Transformer–ResNet Approach."* The architecture, dataset pipeline, and training setup have been adapted for local experimentation and reproducibility.
+This implementation is inspired by the research paper **[Advancing Brain Tumor MRI Classification using SwRD: A Parallel Swin Transformer–ResNet Approach](https://www.sciencedirect.com/science/article/pii/S2096579625000348#abs0010)** The architecture, dataset pipeline, and training setup have been adapted for local experimentation and reproducibility.
 
 The notebook achieved **99.88% validation accuracy** on the 31,464-image dataset described below.
 
@@ -95,20 +95,9 @@ All outputs are saved inside the notebook.
 ## Project Structure
 
 ```
-Training/
+
 ├── SwRD_Training.ipynb          # Main training notebook
 ├── README_SwRD.md               # This file
-├── Brain_Tumor_Segmentation.ipynb
-└── Yolo_V8_Brain_Tumor.ipynb
-
-data/
-└── multiclass/                  # Created by the notebook
-    ├── glioma/
-    ├── meningioma/
-    ├── notumor/
-    └── pituitary/
-
-models/
 └── swrd_multiclass_model.pt     # Exported checkpoint
 ```
 
@@ -164,6 +153,6 @@ pip install -q torch torchvision timm scikit-learn albumentations matplotlib sea
 
 This implementation is inspired by the research paper:
 
-> *Advancing Brain Tumor MRI Classification using SwRD: A Parallel Swin Transformer–ResNet Approach*
+> **[Advancing Brain Tumor MRI Classification using SwRD: A Parallel Swin Transformer–ResNet Approach](https://www.sciencedirect.com/science/article/pii/S2096579625000348#abs0010)**
 
 The Hashemi dataset is hosted by `mohammadhossein77` and the SARTAJ dataset by `sartajbhuvaji`, both on Kaggle.
