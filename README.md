@@ -95,10 +95,8 @@ All outputs are saved inside the notebook.
 ## Project Structure
 
 ```
-
 ├── SwRD_Training.ipynb          # Main training notebook
 ├── README_SwRD.md               # This file
-└── swrd_multiclass_model.pt     # Exported checkpoint
 ```
 
 ---
